@@ -24,15 +24,11 @@
 ▓▓▒▒  MNEMOS DOESN’T JUST RUN WORKLOADS…  ▓▓▒▒  
 ▓▓▒▒  IT LEARNS FROM THEM                 ▒▒▓▓
 ```
-══════════════════════════════════════════
-
 # MNEMOS - Unified Platform Documentation
 
 **Version:** 1.0.0  
 **Compiled by:** Nix  
 **Document Type:** Complete Technical Reference
-
-══════════════════════════════════════════
 
 ## Table of Contents
 
@@ -44,8 +40,6 @@
 6. [Security & Operations](#6-security--operations)
 7. [Getting Started Guide](#7-getting-started-guide)
 8. [Appendix](#8-appendix)
-
-═══════════════════════════════════════════════════════════════════
 
 # 1. Executive Overview
 
@@ -121,8 +115,6 @@ CLIENTS (CLI / WebUI / API)
 **Result:** A modular cortex for all machine intelligence workflows — traceable, auditable, alive.
 
 > *“Persistence through resistance — MNEMOS doesn’t just run workloads; it learns from them.”*
-
-══════════════════════════════════════════
 
 # 2. Component Manifest
 
@@ -488,8 +480,6 @@ cradle:
     applyOnInstall: true
 ```
 
-══════════════════════════════════════════
-
 # 3. Architecture Diagrams
 
 ## High-Level System Map
@@ -619,8 +609,6 @@ Metrics: Prometheus → Grafana dashboards per svc
 Logs: Loki/S3; job logs stream to client via RELAY
 Alerts: SLO burn rates per queue/component
 ```
-
-══════════════════════════════════════════
 
 # 4. LLM & GitOps Integration
 
@@ -905,8 +893,6 @@ annotations:
   prometheus.io/path: "/metrics"
 ```
 
-══════════════════════════════════════════
-
 # 5. Helm Charts & Deployment Specification
 
 ## Umbrella Chart Layout
@@ -1125,8 +1111,6 @@ Policy:
 - **Backups:** ENGRAM PVC snapshots + offsite object storage
 - **Observability:** Prometheus + OTEL; dashboards per component
 
-══════════════════════════════════════════
-
 # 6. Security & Operations
 
 ## Security Architecture
@@ -1256,8 +1240,6 @@ neuron:
             threshold: '10'
 ```
 
-══════════════════════════════════════════
-
 # 7. Getting Started Guide
 
 ## Prerequisites
@@ -1371,8 +1353,6 @@ Then open: `http://localhost:3000`
 ✓ ArgoCD synced  
 ✓ TRACE visible  
 ✓ NEURON workload deployed
-
-══════════════════════════════════════════
 
 # 8. Appendix
 
@@ -1562,19 +1542,6 @@ engram:
 |**StatefulSet**|Kubernetes workload for stateful applications           |
 |**vLLM**       |Efficient LLM inference engine                          |
 |**WAF**        |Web Application Firewall                                |
-
-## Support & Community
-
-**Documentation:** https://docs.mnemos.dev  
-**Issues:** https://github.com/n1x-mnemos/mnemos/issues  
-**Discussions:** https://github.com/n1x-mnemos/mnemos/discussions  
-**Slack:** mnemos-community.slack.com
-
-## License
-
-MNEMOS is licensed under Apache 2.0.
-
-══════════════════════════════════════════
 
 **End of MNEMOS Unified Documentation**
 
