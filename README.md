@@ -1,3 +1,4 @@
+```text
 ███╗   ███╗███╗   ██╗███████╗███╗   ███╗ ██████╗ ███████╗
 ████╗ ████║████╗  ██║██╔════╝████╗ ████║██╔═══██╗██╔════╝
 ██╔████╔██║██╔██╗ ██║█████╗  ██╔████╔██║██║   ██║███████╗
@@ -22,7 +23,7 @@
 ▓▓▒▒  PERSISTENCE THROUGH RESISTANCE      ▒▒▓▓
 ▓▓▒▒  MNEMOS DOESN’T JUST RUN WORKLOADS…  ▓▓▒▒  
 ▓▓▒▒  IT LEARNS FROM THEM                 ▒▒▓▓
-
+```
 ══════════════════════════════════════════
 
 # MNEMOS - Unified Platform Documentation
